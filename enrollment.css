@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;}
+
+
+.Main{
+    width: 100%;
+    background: url(IMG_7158.JPG);
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+}
+
+
+.navbar{
+    width:1200px;
+    height: 75px;
+    margin: auto;} 
+    
+    .icon{
+        width: 200px;
+        float: left;
+        height: 70px;
+    }
+.logo{
+    color: rgb(133, 133, 246);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: 1.5em;
+padding-top: 10px;
+}
+.logo span{
+    color: rgb(0, 0, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+padding-top: 2px;
+font-size: 0.7em;}
+
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family: arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    background-color: rgb(133, 133, 246);
+    border: 2px solid rgb(133, 133, 246);
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+ul li a:hover{
+    color: rgb(0, 0, 0);
+}
+
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 40px;
+    background: transparent;
+    border: 1px solid;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    border-right:none;
+    font-size: 16px;
+    float: left;
+    padding: 10px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    background: rgb(133, 133, 246);
+    border: 2px solid rgb(133, 133, 246);
+    margin-top: 20px;
+    color: white;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+
+.content span{
+    color: rgb(133, 133, 246);
+}
+
+.content .par{
+    padding-left: 20px ;
+    padding: bottom 25px;
+    font-family: Arial;
+    letter-spacing:1.2px;
+    line-height: 30px;
+    color: white;
+}
+
+.glass-box{
+ width:  500px;  
+ height: 775px;
+ background: radial-gradient(rgba(0, 0, 0, 0.6));
+ box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
+ border-radius: 20px;
+ backdrop-filter: blur(3px);
+ background-position: center;
+ margin-left: 400px;
+}
+
+form{
+    color: rgb(0, 0, 0);
+    font-family: Impact;
+    display: center;
+    margin-left: 115px;
+    align-items: center;
+    font-size: 1.1em;
+    
+    
+}
+
+input{
+    background: transparent;
+    color: rgb(0, 0, 0);
+   border-radius: 5px;
+}
+h3{
+    color: rgb(255, 0, 0);
+}
